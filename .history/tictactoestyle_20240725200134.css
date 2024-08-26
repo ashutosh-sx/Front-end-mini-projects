@@ -1,0 +1,123 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+body{
+    background-color: #D3B88C;
+    text-align: center;
+}
+#heading{
+    margin-top: 10px;;
+    font-size: 3rem;;
+}
+.container{
+    height : 65vh;
+    display : flex;
+    justify-content:  center;
+    align-items : center;
+}
+.Game{
+    position: relative;
+    margin-top: 0px;
+    height : 60vmin;
+    width : 60vmin;
+    display : flex;
+    flex-wrap : wrap;
+    justify-content:  center;
+    align-items : center;
+    gap : 1.2vmin;
+}
+.box{
+    height : 19vmin;
+    width : 19vmin;
+    border-radius: 1rem;
+    border : none;
+    font-size : 10vmin;
+    color: #A97951;
+    background-color : whitesmoke;
+    position: relative;
+}
+#reset{
+    background-color : #191913;
+    color : white;
+    margin-top: 25px;;
+    padding : 1rem;
+    font-size : 1.2rem;
+    border-radius: 0.8rem;
+    border : none;
+}
+.newGame{
+    background-color : #191913;
+    color : white;
+    margin-left: 40px;;
+    padding : 1rem;
+    font-size : 1.2rem;
+    border-radius: 0.8rem;
+    border : none;
+}
+.msg{
+    margin-top: 15px;
+    font-size: 2.5rem;
+}
+.hide{
+    display : none;
+}
+
+.line {
+    position: absolute;
+    background-color: rgba(255, 0, 0, 0.5);
+    z-index: 10; /* Ensure the line is on top of the boxes */
+    transform: translate(-50%, -50%); /* Center the lines correctly */
+}
+
+.horizontal {
+    width: calc(100% + 2.4vmin); /* Adjust width to cover gaps */
+    height: 2px;
+    left: 50%;
+}
+
+.horizontal.top {
+    top: 19vmin; /* Position for the top row */
+}
+
+.horizontal.middle {
+    top: 50%;
+}
+
+.horizontal.bottom {
+    top: calc(100% - 19vmin); /* Position for the bottom row */
+}
+
+.vertical {
+    width: 2px;
+    height: calc(100% + 2.4vmin); /* Adjust height to cover gaps */
+    top: 50%;
+}
+
+.vertical.left {
+    left: 19vmin; /* Position for the left column */
+}
+
+.vertical.center {
+    left: 50%;
+}
+
+.vertical.right {
+    left: calc(100% - 19vmin); /* Position for the right column */
+}
+
+.diagonal1 {
+    width: 2px;
+    height: calc(100% + 2.4vmin); /* Adjust height to cover gaps */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.diagonal2 {
+    width: 2px;
+    height: calc(100% + 2.4vmin); /* Adjust height to cover gaps */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}

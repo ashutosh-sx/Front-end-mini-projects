@@ -1,0 +1,1 @@
+let userScore = 0;

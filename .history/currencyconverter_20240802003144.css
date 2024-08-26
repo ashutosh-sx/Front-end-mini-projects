@@ -1,0 +1,16 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+body {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4e4ba;
+    min-height: 100vh;
+}
+.container{
+    background-color: white;
+    padding : 2rem;
+    border-radius: 1rem;
+}

@@ -1,0 +1,10 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+.logo{
+        
+        height: 100px;
+        background-image: url("RPSGame.png"); 
+        
+    }

@@ -1,0 +1,25 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+.logo {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: #1c1c1c;; 
+}
+
+#styled-logo {
+    max-height: 100%; 
+    max-width: 100%; 
+}
+.choices{
+    height : 100px;
+    width : 100px;
+}
+#pic{
+    height : 100px;
+    width : 100px;
+}

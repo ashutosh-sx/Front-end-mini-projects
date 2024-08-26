@@ -1,0 +1,12 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+.logo{
+        width: auto;
+        height: 100px;
+        background-image: url("RPSGame.png"); 
+        background-size: cover; 
+        background-position: center; 
+        
+    }
